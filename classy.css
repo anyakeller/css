@@ -1,0 +1,48 @@
+
+body{
+    color: SaddleBrown;
+    background-color: PapayaWhip;
+    font-size: 12pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    padding: 10px;
+    color: CadetBlue;
+}
+
+p {
+    color: Sienna;
+    text-align: right;
+}
+
+a {
+    width: 100px;
+    color: DarkGreen ;
+}
+
+a:hover{
+    color: MediumTurquoise;
+}
+
+a:visited{
+    color: DarkOliveGreen;
+}
+
+.extreme{
+    border: 5px solid DarkSeaGreen;
+    margin: 0;
+    padding: 20px 20px 10px 20px;
+}
+
+#head1{
+    font-size: 24px;
+}
+
+.navzone{
+}
+
+.content{
+}

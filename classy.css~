@@ -1,0 +1,37 @@
+
+body{
+    color: SaddleBrown;
+    background-color: PapayaWhip;
+    font-size: 12pt;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    width: 320px;
+    padding: 10px;
+    color: CadetBlue;
+}
+
+p {
+    color: Sienna;
+    text-align: right;
+}
+
+a {
+    width: 100px;
+    color: DarkGreen ;
+}
+
+a:hover{
+    color: MediumTurquoise;
+}
+
+a:visited{
+    color: DarkOliveGreen;
+}
+
+.extreme{
+    border: 5px solid DarkSeaGreen;
+    margin: 0;
+}

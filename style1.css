@@ -3,7 +3,6 @@ body{
     color: SaddleBrown;
     background-color: PapayaWhip;
     font-size: 12pt;
-    width: 100px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -18,9 +17,11 @@ h1 {
 
 p {
     color: Sienna;
+    text-align: right;
 }
 
 a {
+    width: 100px;
     color: DarkGreen ;
 }
 

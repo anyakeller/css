@@ -1,0 +1,80 @@
+body{
+    color: Black;
+    word-spacing: 35px;
+    text-size: 24px;
+    text-shadow: -1px -1px 1px White;
+    background-color: Black;
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    text-align:center;
+    word-spacing: 3em;
+    text-shadow: -1px -1px 1px White, -2px -2px 3px DeepPink;
+    padding: 1em;
+    margin: 0;
+    background-color: MidnightBlue;
+    border: 10px DarkMagenta;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+h2 {
+    word-spacing: 2em;
+    text-align:right;
+    text-shadow: -1px -1px 1px White, -2px -2px 3px DeepSkyBlue;
+    padding: 1em;
+    margin: 0;
+    background-color: DarkSlateBlue;
+    border: 2px Aquamarine;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h3 {
+    word-spacing: 2em;
+    text-align:right;
+    text-shadow: -1px -1px 1px White, -2px -2px 3px Chartreuse ;
+    padding: 1em;
+    margin: 0;
+    background-color: DarkGreen;
+    border: 2px Aquamarine;
+    border-radius: 5px;
+}
+
+p {
+    direction: rtl;
+    text-align:center;
+    padding: 20px;
+    text-shadow: -1px -1px 1px Ivory;
+    background-color: DarkGreen;
+    border: 2px Aquamarine;
+    border-radius: 5px;
+}
+
+a {
+    color: DarkSlateGrey;;
+    text-shadow: -1px -1px 1px AliceBlue;
+}
+
+a:hover{
+    text-shadow: -1px -1px 1px PowderBlue;
+}
+
+a:visited{
+}
+
+ul{
+    border-left: 5px solid HoneyDew;
+    background-color: DarkSlateGrey;
+    padding: 10px 20px;
+}
+
+ul li{
+    list-style: none;
+    list-style-position: inside;
+    padding: 10px;
+}

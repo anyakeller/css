@@ -1,34 +1,59 @@
 
 body{
-    color: SaddleBrown;
-    background-color: PapayaWhip;
+    color: #272727;
+    background-color: #DBDBDB;
     font-size: 12pt;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-h1 {
-    width: 320px;
+#head1 {
+    display: inline-block;
     padding: 10px;
-    border: 5px solid DarkSeaGreen;
+    border-bottom: 10px solid #175676;
     margin: 0;
-    color: CadetBlue;
+    color: #009FB7;
+    font-size: 64px;
 }
 
-p {
+.navzone{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    background-color: #D6D6D6;
+    color: #BA324F;
+}
+
+.prose {
     color: Sienna;
-    text-align: right;
+    font-size: 24px;
 }
 
 a {
     width: 100px;
-    color: DarkGreen ;
+    color: #4BA3C3 ;
 }
 
 a:hover{
-    color: MediumTurquoise;
+    color: #4263AF;
 }
 
 a:visited{
-    color: DarkOliveGreen;
+    color: #4292AF;
+}
+
+a:visited:hover{
+    color: #4263AF;
+}
+
+#tehlulz{
+    font-family: Impact;
+}
+
+.content{
+    color: #D62839;
+    display: inline-block;
+    position: relative;
+    top: 20px;
 }

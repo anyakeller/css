@@ -5,12 +5,10 @@ body{
     text-shadow: -1px -1px 1px White;
     background-color: Black;
     font-size: 12pt;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
-h1 {
+#head1 {
+    display: block;
     text-align:center;
     word-spacing: 3em;
     text-shadow: -1px -1px 1px White, -2px -2px 3px DeepPink;
@@ -22,21 +20,22 @@ h1 {
     margin: 20px;
 }
 
-h2 {
+.content {
+
+    display: block;
     word-spacing: 2em;
-    text-align:right;
     text-shadow: -1px -1px 1px White, -2px -2px 3px DeepSkyBlue;
     padding: 1em;
     margin: 0;
-    background-color: DarkSlateBlue;
+    background-color: #343A1A;
     border: 2px Aquamarine;
     border-radius: 5px;
     margin: 10px;
 }
 
-h3 {
+.navzone{
+    display: block;
     word-spacing: 2em;
-    text-align:right;
     text-shadow: -1px -1px 1px White, -2px -2px 3px Chartreuse ;
     padding: 1em;
     margin: 0;
@@ -45,7 +44,7 @@ h3 {
     border-radius: 5px;
 }
 
-p {
+.prose {
     direction: rtl;
     text-align:center;
     padding: 20px;
@@ -77,4 +76,10 @@ ul li{
     list-style: none;
     list-style-position: inside;
     padding: 10px;
+}
+
+.content{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
